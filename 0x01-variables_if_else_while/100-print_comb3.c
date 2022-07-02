@@ -14,19 +14,18 @@ int main(void)
 
 	for (d = 0; d < 9; d++)
 	{
-		for (p = d + 1; p < 10; p++)
-		{	
-				putchar((d % 10) + '0');
-				putchar((p % 10) + '0');
-				
-				if (d == 8 && p== 9)
-					continue;
-				
-				putchar(',');
-				putchar(' ');
+		for (p = d + 1; p <= 9; p++)
+		{
+			putchar((d % 10) + '0');
+			putchar((p % 10) + '0');
+
+			if (digit1 == 8 && digit2 == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
-
 	putchar('\n');
 
 	return (0);
