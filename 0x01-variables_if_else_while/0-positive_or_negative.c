@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - Entry point
- *
+ * main - assign a random number to the variable n each time it is executed and prints out
+ * based on a condition
  * Return: Always 0 (Success)
  */
 int main(void)
