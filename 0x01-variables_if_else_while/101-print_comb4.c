@@ -21,7 +21,7 @@ int main(void)
 				putchar(p);
 				putchar(q);
 
-				if (d == '7' && p == '8' && q =='9')
+				if (d == 7 && p == 8 && q == 9)
 					continue;
 
 				putchar(',');
